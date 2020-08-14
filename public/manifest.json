@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "tab_skok",
+  "description": "simple tab switcher",
+  "version": "1.0.0",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "permissions": ["<all_urls>", "tabs"],
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Tab skok",
+    "default_popup": "index.html"
+  }
+}
